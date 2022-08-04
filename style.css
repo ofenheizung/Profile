@@ -1,0 +1,69 @@
+/* #Pick a nice background-color, font-family,
+#color, font-size and line-height for the <body>.
+#Setting these font rules at the body-level will
+#apply them on all basic text tags (<p>, <li>, etc.). */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  border-radius: 40%;
+}
+
+#profile-pic img {
+
+
+}
+
+#profile-pic img:hover {
+  border: 3px dotted #ff7a59;
+  color: #EB1D36;
+  background: #F5EDDC;
+}
+
+body {
+  background: #F5EDDC;
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/*Headers
+Choose a nice color and font-family for headers (<h1>, <h2>, <h3>)
+Choose harmonious font-size and line-height for headers
+Hint: small headers are more elegant.
+If you check out any website (Medium, Airbnb, etc.),
+you’ll see that the font-size of their
+headers is quite small. */
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    color: #b99430;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.0;
+}
+
+h2 {
+  color: #7d6d57;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.0;
+}
+
+/*Change the color & text-decoration of all the links
+Add hover effects to links using the pseudo-class a:hover.*/
+
+.icon:hover{
+  color: #EB1D36;
+  transform: scale(1.9);
+}
